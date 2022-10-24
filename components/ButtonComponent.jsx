@@ -1,24 +1,8 @@
-import {Button} from "react-native";
+import {Button} from "@react-native-material/core"
 
-export default function ButtonComponent({isPressed, onPress}) {
-    if (isPressed) {
-        return (
-            <Button
-                onPress={onPress}
-                title="Learn More"
-                color="#841584"
-                accessibilityLabel="Learn more about this purple button"
-            />
-        )
-    }
-    else {
-        return (
-            <Button
-                onPress={onPress}
-                title="Learn More"
-                color="#841584"
-                accessibilityLabel="Learn more about this purple button"
-            />
-        )
-    }
+export default function ButtonComponent() {
+    // <Text>
+        {/* {text} */}
+        <Button/>
+    // </Text>
 }
